@@ -1,0 +1,12 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp create.blade.php $DEPLOYPATH
+    - /bin/cp database.php $DEPLOYPATH
+    - /bin/cp edit.php $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp main.php $DEPLOYPATH
+    - /bin/cp proses.php $DEPLOYPATH
+    - /bin/cp tambah_data.php $DEPLOYPATH
