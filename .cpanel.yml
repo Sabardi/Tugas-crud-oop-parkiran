@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
+    - export DEPLOYPATH=/home/sabn3321/public_html/
     - /bin/cp -R public $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp create.blade.php $DEPLOYPATH
@@ -10,3 +10,5 @@ deployment:
     - /bin/cp main.php $DEPLOYPATH
     - /bin/cp proses.php $DEPLOYPATH
     - /bin/cp tambah_data.php $DEPLOYPATH
+
+     
