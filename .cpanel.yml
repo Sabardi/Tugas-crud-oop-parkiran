@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/sabn3321/public_html/crud/
+    - export DEPLOYPATH=/home/sabn3321/public_html
     - /bin/cp -R public $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp create.blade.php $DEPLOYPATH
