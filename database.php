@@ -2,9 +2,9 @@
 class database{
 
 	var $host = "localhost";
-	var $username = "root";
-	var $password = "";
-	var $database = "oop_parkiran";
+	var $username = "sabn3321_pbobaru";
+	var $password = "lfwJ5((ui6kd";
+	var $database = "sabn3321_pboBaru";
 	var $koneksi = "";
 	function __construct(){
 		$this->koneksi = mysqli_connect($this->host, $this->username, $this->password,$this->database);
